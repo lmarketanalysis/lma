@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Luis Market Analysis</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Luis Market Analysis</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="start.html">Start</a>
+        </li>
+        <li>
+          <a href="analysen.html">Analysen</a>
+        </li>
+        <li>
+          <a href="märkte.html">Märkte</a>
+        </li>
+        <li>
+          <a href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="einführung">
+      <h2>
+        Meine Analyse. Dein Erfolg.
+      </h2>
+      <p>
+        Durch meine Analysen erkennst du klare Einstiegs- <br> 
+        und Ausstiegsmöglichkeiten an den Aktien- und Kryptomärkten. <br>
+        Ich zeige dir, wann es profitabel ist zu investieren - <br>
+        und wann es besser ist auszusteigen. <br>
+        Verständliche Analysen, Genaue Zielzonen, Direkt Umsetzbar. <br>
+      </p>
+    </section>
+
+    <section class="überschrift">
+      <h3>
+        Live-Chart: Nasdaq
+      </h3>
+      
+      <!-- Start Widget -->
+      <div class="chart-wrapper">
+        <div class="tradingview-widget-container">
+          <div class="tradingview-widget-container__widget"></div>
+          <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+          {
+            "autosize": true,
+            "symbol": "NASDAQ:NDX",
+            "interval": "D",
+            "timezone": "Europe/Zurich",
+            "theme": "light",
+            "style": "1",
+            "locale": "en",
+            "allow_symbol_change": true,
+            "save_image": false,
+            "hide_volume": true,
+            "support_host": "https://www.tradingview.com"
+          }
+          </script>
+        </div>
+      </div>      
+      <!-- Ende Widget -->
+    </section>
+
+  </main>
+
+  <footer>
+    <p> 
+      Luis Market Analysis <br>
+      Telefon: +41 77 410 39 63 <br>
+      Support: info.lmarketanalysis@gmail.com <br>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+
+<!-- 
+Den Großteil der Inhalte dieser Website habe ich im Informatik-
+Unterricht erlernt und auf dieser Grundlage umgesetzt. 
+Dazu zählen vor allem grundlegende Kenntnisse in HTML, CSS und JavaScript.
+
+Alle auf der Website dargestellten Analysen wurden von mir selbst erstellt.
+Dabei habe ich mein Wissen und meine Erfahrungen an den Finanzmärkten genutzt,
+um die Charts zu analysieren und mögliche zukünftige Entwicklungen einzuschätzen.
+
+Einige weiterführende Funktionen sowie zusätzliche gestalterische Elemente 
+habe ich selbstständig erarbeitet.
+
+Zudem habe ich einige kurze Teile mit anderen zusammen gemacht. z.B Footer.
+
+Folgende Quellen habe ich unter anderem zur Unterstützung genutzt:
+- https://chatgpt.com/
+- https://www.w3schools.com/
+- https://www.youtube.com/@FabianHiller
+- https://www.youtube.com/@Programmierenlernen
+- https://www.tradingview.com/widget-docs/widgets
+- https://formspree.io/
+-->
