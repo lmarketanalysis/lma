@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Luis Market Analysis</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Luis Market Analysis</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Start</a>
+        </li>
+        <li>
+          <a href="analysen.html">Analysen</a>
+        </li>
+        <li>
+          <a href="märkte.html">Märkte</a>
+        </li>
+        <li>
+          <a href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="einführung">
+      <h2>
+        Kontakt
+      </h2>
+      <p>
+        Du hast Fragen zu meinen Analysen oder <br>  
+        möchtest mit mir in Kontakt treten? <br> 
+        Nutze das Formular unten um mir eine Nachricht zu senden. <br> 
+        Ich freue mich auf deine Anfrage! <br> 
+      </p>
+    </section>
+
+    <section class="kontakt">
+      <!-- Nachrichten weiterleiten an meine Email-Adresse: https://formspree.io/ -->
+      <form id="formular" action="https://formspree.io/f/mbloaakr" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+  
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required />
+  
+        <label for="nachricht">Nachricht:</label>
+        <textarea id="nachricht" name="nachricht" rows="6" required></textarea>
+  
+        <button type="submit">Absenden</button>
+        <p id="check"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p> 
+      Luis Market Analysis <br>
+      Telefon: +41 77 410 39 63 <br>
+      Support: info.lmarketanalysis@gmail.com <br>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
